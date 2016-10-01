@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "An express server which serves a single file, acting as a proxy for localStorage on a subdomain via an iframe.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dantheuber/node-localstorage-proxy.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
