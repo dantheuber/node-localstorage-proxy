@@ -30,7 +30,7 @@ If you were needing to access `sub2.domain.com` localStorage from `sub.domain.co
           // load previously saved data
           win.postMessage(JSON.stringify({key: 'storage', method: "get"}), "*");
           window.onmessage = function(e) {
-              if (e.origin != "http://sub.domain.com") {
+              if (e.origin != "http://sub2.domain.com") {
                   return;
               }
               // this will log "Jack"
