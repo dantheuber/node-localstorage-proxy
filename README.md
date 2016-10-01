@@ -5,6 +5,13 @@ The goal of this package is to provide an extremely simple express server which 
 Based on the blog post https://jcubic.wordpress.com/2014/06/20/cross-domain-localstorage/
 Made simple with https://gist.github.com/jlong/2428561
 
+Jakub's opening paragraph explains the why behind this pretty clearly: 
+```
+As you may know, LocalStorage is domain based. You can’t read or write from localstorage that’s on different domain, even if that’s subdomain. But there is iframe trick that you can use to store data from domain to it’s subdomain.
+
+Besically you create an iframe that’s hosted on your subdomain that set document.domain to the parent domain. Then you send PostMessage to that iframe and inside iframe you set that value of localStorage.
+```
+
 ## How to use
 After cloning this repository.
 
