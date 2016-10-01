@@ -1,0 +1,21 @@
+{
+  "name": "node-localstorage-proxy",
+  "version": "1.0.0",
+  "description": "An express server which serves a single file, acting as a proxy for localStorage on a subdomain via an iframe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "localstorage",
+    "node",
+    "javascript",
+    "proxy"
+  ],
+  "author": "Daniel Essig",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
